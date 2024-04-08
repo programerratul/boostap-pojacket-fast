@@ -71,9 +71,66 @@ header div{
 #bar-crosh{
   display: none;
 }
+.submit{
+  display: inline-block;
+}
+section{
+  background-color: #15213E;
+}
+.Services{
+  text-align: center;
+  font-size: 30px;
+  color: bisque;
+  padding-top: 15px;
+}
+.card-class{
+  width: 250px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  padding: 15px;
+}
+.card-class i{
+  font-size: 30px;
+}
+.main-card-div{
+  width: 900px;
+  margin: 18px auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+  padding-bottom: 10px;
+}
+.smartarea{
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FBF11D;
+  padding-top: 15px;
+  margin-top: -30px;
+}
+.smartarea-main{
+  background-color: #34495E ;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.imagediv img{
+  height: 355px;
+}
+.articalbusiness{
+  padding-top: 45px;
+}
+.articalbusiness h5{
+  text-transform: uppercase;
+}
+
+
+
   /* responsive start hear */
 @media screen and (max-width: 940px) {
-    nav ul{
+     ul{
       position: fixed;
       background-color: #1E2634;
       top: 50px;
@@ -92,6 +149,44 @@ header div{
       display: block;
     }
     #bar-crosh:checked ~ ul{
+      position: fixed;
+      background-color: #1E2634;
+      top: 50px;
       left: 0%;
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      padding-top: 25px;
+      transition: all 0.5s ease;
+    }
+    .smartarea-main{
+      background-color: #34495E ;
+      display: block;
+      text-align: center;
+      color: white;
+    }
+    .btnn{
+      width: 250px;
+      margin: auto;
+    }
+    @media screen and (max-width:850px){
+      .main-card-div{
+        width: 500px;
+        margin: 18px auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+        padding-bottom: 10px;
+      }
+    }
+    @media screen and (max-width:650px){
+      .main-card-div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding-bottom: 10px;
+        margin-left: 70px;
+      }
     }
   }
