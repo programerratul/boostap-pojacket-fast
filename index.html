@@ -12,110 +12,774 @@
    <!-- css link -->
    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <nav>
-        <div>
-           <a href="#">Logo</a>
-        </div>
-        <input type="checkbox" id="bar-crosh">
+<body class="bg-light">
 
-        <label for="bar-crosh"><i class="fas fa-bars bar-itme"></i></label>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">gallary</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">contact</a></li>
+ 
+<!-- nav bar start hear  -->
+
+  <nav class="navbar navbar-expand-lg text-bg-secondary sticky-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand text-success" href="#"><span class="text-info"> L</span><span class="text-warning">OG</span>O</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pages</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Project
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Project-1</a></li>
+              <li><a class="dropdown-item" href="#">Project-2</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Project-3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
         </ul>
-    </nav>
-    <header>
-        <div>
-            <h1>Welcome to Our Website</h1>
-            <p>Thank you for visiting! We're thrilled to have you here. Explore and enjoy!</p>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+        
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/download (1).jpg" class="d-block w-100 hader-image" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="welcome-h1"><span class="welcome">Welcome</span>to the best web art</h1>
         </div>
-        <div class="vstack gap-2 col-md-5 mx-auto button">
-            <button type="button" class="btn btn-secondary btnn">Shop Now</button>
-            <button type="button" class="btn btn-outline-secondary btnn">Cancel</button>
+      </div>
+      <div class="carousel-item">
+        <img src="image/download (2).jpg" class="d-block w-100 hader-image" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="welcome-h1"><span class="welcome">Welcome</span>to the best web art</h1>
         </div>
-    </header>    
-
-    <main>
-        <!-- first-section start hear  -->
-        <section>
-            <div class="Services">Our Services</div>
-            <div class="main-card-div">
-                <div class="card-class">
-                    <i class="fa-solid fa-laptop-code"></i>
-                    <h3>Programmin</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, hic adipisci? Nulla voluptate maxime dicta perferendis autem, pariatur neque quidem.
-                    </p>
-                </div>
-                <div class="card-class">
-                    <i class="fa-solid fa-database"></i>
-                    <h3>DataBase</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptates earum fuga amet. Eveniet provident odit officiis adipisci eaque accusamus!
-                    </p>
-                </div>
-                <div class="card-class">
-                    <i class="fa-solid fa-download"></i>
-                    <h3>Downlode</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nobis exercitationem sequi optio delectus, laudantium voluptate eveniet amet impedit alias?
-                    </p>
-                </div>
-                <div class="card-class">
-                    <i class="fa-brands fa-node-js"></i>
-                    <h3>Java Script</h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla quaerat illum harum nam ducimus voluptates quisquam dolorum? Ipsa, eum molestiae.
-                    </p>
-                </div>
-                <div class="card-class">
-                    <i class="fa-brands fa-python"></i>
-                    <h3>Python</h3>
-                    <p>
-                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse adipisci doloremque accusantium nesciunt nostrum placeat debitis? Quaerat ab eius architecto!
-                    </p>
-                </div>
-                <div class="card-class">
-                    <i class="fa-solid fa-unlock"></i>
-                    <h3>Cyber Security</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quisquam explicabo pariatur possimus amet? Expedita minima eius sed debitis possimus!
-                    </p>
-                </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/download.jpg" class="d-block w-100 hader-image" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="welcome-h1"><span class="welcome">Welcome</span>to the best web art</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- accordion section start hear  -->
+    <section class="mt-5 container"> 
+      <h2 class="text-center">Know We More</h2>
+      <div class="row">
+        <div class="accordion accordion-flush col-lg-7" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+               Our Service #1
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><strong>This is the first item is according to body</strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit esse, dolore impedit architecto quam quia sequi laborum quis alias quaerat atque magni nobis at laudantium <code>nemo commodi distinctio odit amet quisquam</code>  animi rerum provident beatae a! Suscipit id perferendis ullam aliquid, blanditiis, deserunt itaque iure, ipsum officiis sed a!</div>
             </div>
-        </section>
-        <section>
-            <h3 class="smartarea">Smart Area</h3>
-            <div class="smartarea-main">
-                <div class="imagediv">
-                    <img src="image/back.png" alt="">
-                </div>
-                <div class="articalbusiness">
-                    <h5>Try something new for you!</h5>
-                    <h2>Create own Business</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel officiis esse iusto ad ex quam culpa neque saepe. Totam est, nulla aperiam harum illo minima fuga consequatur tempora suscipit, magni dicta incidunt repudiandae facilis? Natus repellendus, esse veritatis laboriosam aperiam assumenda doloremque. Vitae doloribus sapiente quibusdam sunt voluptatem praesentium beatae.</p>
-                    <a href="#" class="btn btn-secondary">Check Out</a>
-                </div>
-                
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Our Rules #2
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Explore the galaxy, discover new planets, and gather resources to expand your space colony.Players start with a small spaceship and limited resources.
+                Navigate through the galaxy by selecting destinations on the star map.
+                Each destination may offer opportunities for exploration, resource gathering, or encounters with other space <code>Manage resources such as fuel, food, and materials to ensure the survival and growth of your colony.</code>
+                Encounter random events such as asteroid fields, space pirates, or friendly alien species.
+                Upgrade your spaceship and colony facilities to improve efficiency and unlock new abilities.</div>
             </div>
-        </section>
-    </main>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+               Our History #3
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <img src="image/w3-removebg-preview.png" class="img-fluid w-100" alt="">
+        </div>
+      </div>
+      
+    </section>
+ 
+    <!-- reavue section  -->
+   
+<section class="container mt-5">
+ <div class="row">
+  <div class="col-lg-7">
+    <div class="row">
+
+      <div class="col-md-4 mb-2  shadow">
+          <img src="image/sneakers.jpg" class="img-fluid w-100" alt="...">
+            <p class="card-text">Product Sneakers</p>
+            <div class="d-flex justify-content-between">
+              <span class="text-primary">$154.00</span>
+              <span class="text-warning">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </span>
+            </div>
+      </div>
+   
+
+      <div class="col-md-4 mb-2 shadow">
+          <img src="image/jeans.jpg" class="img-fluid w-100" alt="...">
+            <p class="card-text">Jeans Pant</p>
+            <div class="d-flex justify-content-between">
+              <span class="text-primary">$28.00</span>
+              <span class="text-warning">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </span>
+            </div>
+      </div>
+
+      <div class="col-md-4 mb-2 shadow">
+          <img src="image/wotch.jpg" class="img-fluid w-100" alt="...">
+            <p class="card-text">Watch</p>
+            <div class="d-flex justify-content-between">
+              <span class="text-primary">$128.00</span>
+              <span class="text-warning">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </span>
+            </div>
+      </div>
+
+      <div class="col-md-4 mb-2 shadow">
+          <img src="image/T-shart.jpg" class="img-fluid w-100" alt="...">
+            <p >Mal's T-Shart</p>
+            <div class="d-flex justify-content-between">
+              <span class="text-primary">$18.00</span>
+              <span class="text-warning">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </span>
+            </div>
+      </div>
+
+      <div class="col-md-4 mb-2  shadow">
+          <img src="image/half pant.webp" class="img-fluid w-100" alt="...">
+            <p >Mal's half pant</p>
+            <div class="d-flex justify-content-between">
+              <span class="text-primary">$15.00</span>
+              <span class="text-warning">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </span>
+            </div>
+      </div>
+
+      <div class="col-md-4 mb-2  shadow">    
+          <img src="image/cap.jpg" class="img-fluid w-100" alt="...">
+            <p>Mal's Cap</p>
+            <div class="d-flex justify-content-between">
+              <span class="text-primary">$155.00</span>
+              <span class="text-warning">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </span>
+            </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <div class="col-lg-5">
+    <img src="image/markating-removebg-preview.png" class="img-fluid w-100 " alt="">
+  </div>
+ </div>
+</section>
+
+<!-- orader section  -->
+<section class="container mt-5">
+  <h2 class="text-center mb-5">Teranding Products</h2>
+  <div class="row">
+
+    <div class="col-md-3">
+      <div class="d-flex justify-content-between">
+        <span class="text-bg-danger rounded p-2">Sale</span>
+        <span class="text-danger"><i class="fas fa-code"></i> Compare</span>
+      </div>
+      <img src="image/headphone.jpg" class="w-100" alt="">
+      <span>Headphone</span>
+      <h6 class=" mt-2">Wireless Bluetooth Headphones</h6>
+      <div class="d-flex justify-content-between mt-3">
+        <span class="text-primary">$155.00</span>
+        <span class="text-warning">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </span>
+      </div>
+      <a href="#" class="btn btn-danger w-100 mt-3"> <i class="fas fa-shopping-cart"></i> Add to Cart</a>
+      <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fas fa-eye"></i> Quick View</a>
+    </div>
+    
+    <div class="col-md-3 mt-3">
+      <div class="d-flex justify-content-between">
+        <span class="text-bg-danger rounded p-2">Sale</span>
+        <span class="text-danger"><i class="fas fa-code"></i> Compare</span>
+      </div>
+      <img src="image/refrejetor.jpg" class="w-100" alt="">
+      <span>Refrejetor</span>
+      <h6 class="mt-2">Refrejetor Base Station</h6>
+      <div class="d-flex justify-content-between mt-3">
+        <span class="text-primary">$255.00</span>
+        <span class="text-warning">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </span>
+      </div>
+      <a href="#" class="btn btn-danger w-100 mt-3"> <i class="fas fa-shopping-cart"></i> Add to Cart</a>
+      <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fas fa-eye"></i> Quick View</a>
+    </div>
+
+    <div class="col-md-3 mt-3">
+      <div class="d-flex justify-content-between">
+        <span class="text-bg-danger rounded p-2">Sale</span>
+        <span class="text-danger"><i class="fas fa-code"></i> Compare</span>
+      </div>
+      <img src="image/tv.jpg" class="w-100" alt="">
+      <span>TV Video & audio</span>
+      <h6  class="mt-2">Smart TV LED 49" Ulta HD</h6>
+      <div class="d-flex justify-content-between mt-3">
+        <span class="text-primary">$235.00</span>
+        <span class="text-warning">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </span>
+      </div>
+      <a href="#" class="btn btn-danger w-100 mt-3"> <i class="fas fa-shopping-cart"></i> Add to Cart</a>
+      <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fas fa-eye"></i> Quick View</a>
+    </div>
+
+    <div class="col-md-3 mt-3">
+      <div class="d-flex justify-content-between mb-2">
+        <span class="text-bg-danger rounded p-2">Sale</span>
+        <span class="text-danger"><i class="fas fa-code"></i> Compare</span>
+      </div>
+      <img src="image/smart speker.jpg" class="img-fluid w-100" alt="">
+      <span>Smart Home</span>
+      <h6  class="mt-2">Smart Speker with voice Contorl</h6 >
+      <div class="d-flex justify-content-between mt-3">
+        <span class="text-primary">$35.00</span>
+        <span class="text-warning">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </span>
+      </div>
+      <a href="#" class="btn btn-danger w-100 mt-3"> <i class="fas fa-shopping-cart"></i> Add to Cart</a>
+      <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fas fa-eye"></i> Quick View</a>
+    </div>
+
+    <div class="col-md-3 mt-3">
+      <div class="d-flex justify-content-between mb-2">
+        <span class="text-bg-danger rounded p-2">Sale</span>
+        <span class="text-danger"><i class="fas fa-code"></i> Compare</span>
+      </div>
+      <img src="image/smart watch.jpg" class="img-fluid w-100" alt="">
+      <span>Werable Electronics</span>
+      <h6  class="mt-2">GPS Smart Watch</h6 >
+      <div class="d-flex justify-content-between mt-3">
+        <span class="text-primary">$335.00</span>
+        <span class="text-warning">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </span>
+      </div>
+      <a href="#" class="btn btn-danger w-100 mt-3"> <i class="fas fa-shopping-cart"></i> Add to Cart</a>
+      <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fas fa-eye"></i> Quick View</a>
+    </div>
+    
+    <div class="col-md-3 mt-3">
+      <div class="d-flex justify-content-between mb-2">
+        <span class="text-bg-danger rounded p-2">Sale</span>
+        <span class="text-danger"><i class="fas fa-code"></i> Compare</span>
+      </div>
+      <img src="image/xs.jpg" class="img-fluid w-100" alt="">
+      <span>SmartPhone</span>
+      <h6 class="mt-2">Populer SmartPhone 128GB</h6 >
+      <div class="d-flex justify-content-between mt-3">
+        <span class="text-primary">$1135.00</span>
+        <span class="text-warning">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </span>
+      </div>
+      <a href="#" class="btn btn-danger w-100 mt-3"> <i class="fas fa-shopping-cart"></i> Add to Cart</a>
+      <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fas fa-eye"></i> Quick View</a>
+    </div>
+
+    <div class="col-md-3 mt-3">
+      <div class="d-flex justify-content-between mb-2">
+        <span class="text-bg-danger rounded p-2">Sale</span>
+        <span class="text-danger"><i class="fas fa-code"></i> Compare</span>
+      </div>
+      <img src="image/tab.jpg" class="img-fluid w-100" alt="">
+      <span>SmartTAB</span>
+      <h6 class="mt-2">Convertible SmartTAB 128GB</h6>
+      <div class="d-flex justify-content-between mt-3">
+        <span class="text-primary">$1035.00</span>
+        <span class="text-warning">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </span>
+      </div>
+      <a href="#" class="btn btn-danger w-100 mt-3"> <i class="fas fa-shopping-cart"></i> Add to Cart</a>
+      <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fas fa-eye"></i> Quick View</a>
+    </div>
+
+    <div class="col-md-3 mt-3">
+      <div class="d-flex justify-content-between mb-2">
+        <span class="text-bg-danger rounded p-2">Sale</span>
+        <span class="text-danger"><i class="fas fa-code"></i> Compare</span>
+      </div>
+      <img src="image/serize.jpg" class="img-fluid w-100" alt="">
+      <span>Smart Watch</span>
+      <h6 class="mt-2">Serize-6</h6>
+      <div class="d-flex justify-content-between mt-3">
+        <span class="text-primary">$1035.00</span>
+        <span class="text-warning">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </span>
+      </div>
+      <a href="#" class="btn btn-danger w-100 mt-3"> <i class="fas fa-shopping-cart"></i> Add to Cart</a>
+      <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fas fa-eye"></i> Quick View</a>
+    </div>
+  </div>
+  
+    <!-- Button trigger modal -->
+<button type="button" class=" btn btn-info w-100 mt-5 " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  ORADER NOW
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Parsonal Info</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+
+      <div class="modal-body">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationCustom01"  required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationCustom02"  required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <label for="validationCustomUsername" class="form-label">Username</label>
+            <div class="input-group has-validation ">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <div class="form-floating">
+                <input class="form-control" placeholder="Leave a comment here" id="floatingTextarea">
+                <label for="floatingTextarea">Username</label>
+              </div>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">State</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option> Bagerhat</option>
+              <option>Kachua</option>
+              <option>Morolgong</option>
+              <option>Depara</option>
+            </select>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="valid-feedback">
+                Yes, I agery
+              </div>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="mt-5 container">
+  <h3>Shop By Brand</h3>
+  <div class="row">
+
+    <div class="col-lg-2 mt-3">
+      <img src="image/oneplus.png" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-lg-2 mt-3">
+      <img src="image/tencent.png" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-lg-2 mt-3">
+      <img src="image/apple.jpg" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-lg-2 mt-3">
+      <img src="image/microsoft.png" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-lg-2 mt-3">
+      <img src="image/lenevo.png" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-lg-2 mt-3">
+      <img src="image/huawei.png" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-lg-2 mt-3">
+      <img src="image/nexus.jpg" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-lg-2 mt-3">
+      <img src="image/google.png" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-lg-2 mt-3">
+      <img src="image/firefox.png" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-lg-2 mt-3">
+      <img src="image/tesla.jpg" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-lg-2 mt-3">
+      <img src="image/brave.png" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-lg-2 mt-3">
+      <img src="image/meta.png" class="img-fluid w-100" alt="">
+    </div>
+
+  </div>
+</section>
+
+<section class="mt-5 container">
+  <h2>Top selling Products</h2>
+  <div class="row">
+
+    <div class="col-lg-6">
+      <div class="card mb-3" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="image/laptop2.jpg" class="img-fluid w-100 mt-5" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <div class="text-warning">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>Senmei ipsum dolore eiusomd dolor officia do nisi</p>
+              <s>$25.74</s> 
+              <span class="text-danger">$28.00</span>
+              <div class="mt-3">
+                <a href="#" class="btn btn-danger">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="card mb-3" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="image/mobil.jpg" class="img-fluid w-100 " alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <div class="text-warning">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>Canoploy duis voluptate dolor sunt sit asipisicng in</p>
+              <s>$40.74</s> 
+              <span class="text-danger">$18.00</span>
+              <div class="mt-3">
+                <a href="#" class="btn btn-danger">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="card mb-3" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="image/fan.jpg" class="img-fluid w-100 " alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <div class="text-warning">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>Unisure aliqua repreh ex cupt qui elit officil</p>
+              <s>$36.74</s> 
+              <span class="text-danger">$14.00</span>
+              <div class="mt-3">
+                <a href="#" class="btn btn-danger">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="card mb-3" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="image/heter.jpg" class="img-fluid w-100 " alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <div class="text-warning">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nulla at?</p>
+              <s>$36.74</s> 
+              <span class="text-danger">$11.00</span>
+              <div class="mt-3">
+                <a href="#" class="btn btn-danger">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="mt-5">
+  <div class="container" id="bg-image">
+    <h4 class="text-center pt-5">Headphone</h4>
+    <p class="display-4 text-center text-danger pt-5">Get the best deal for <br> Headphone</p>
+    <div class="text-center pb-5 pt-5"><a href="#" class="btn btn-warning ">SHOP NOW &gt;</a></div>
+  </div>
+</section>
+
+<footer class="mt-5 container">
+  <p class="h1 text-center">Shpo Now</p>
+  <hr class="bg-danger w-100 ">
+
+  <div class="row">
+
+    <div class="col-md-3">
+      <p class="h2">About US</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique obcaecati nulla minima fugit facere praesentium! Tenetur, reprehenderit repudiandae. Tempora, necessitatibus?</p>
+    </div>
+
+    <div class="col-md-3">
+      <p class="h2">FEATURE</p>
+      <div><a href="#" class="ft">About us</a></div>
+      <div><a href="#" class="ft">Best Product</a></div>
+      <div><a href="#" class="ft">Terms & Condition</a></div>
+    </div>
+
+    <div class="col-md-3">
+      <p class="h2">General Links</p>
+      <div><a href="#" class="ft">Blog </a></div>
+      <div><a href="#" class="ft">Treacking Orders</a></div>
+      <div><a href="#" class="ft">Become Seller</a></div>
+    </div>
+
+    <div class="col-md-3">
+      <p class="h2">Helpful</p>
+      <div><a href="#" class="ft">Flash Sale</a></div>
+      <div><a href="#" class="ft">FAQ</a></div>
+      <div><a href="#" class="ft">Support</a></div>
+    </div>
+
+  </div>
+
+  <div class="text-center">
+    &#169;JubaermahmudRatul <span class="vr"></span> <span class="vr"></span> 2024
+  </div>
+  
+
+</footer>
+
+  
 
 
 
 
-
-
-
-
-
-
-
-    <!-- bootstrap js link  -->
+  <!-- bootstrap js link  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+    
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+          form.classList.add('was-validated')
+        }, false)
+      })
+    })()
+
+
+          const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+          const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
 </body>
 </html>
